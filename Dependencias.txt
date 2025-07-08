@@ -1,0 +1,27 @@
+[Comandos usados]
+Uso para entrar  cd /mnt/c/Users/Emilly/Downloads/Chat\ sup
+
+Usei o npm init -y pra criar o packege.json 
+Usei o  npx tsc --init para criar o meu tsconfig.json
+Usei o  npx ultracite init  para trazer um pré configuração do biome
+usei o docker compose up -d para criar meu contener 
+Usei o npx drizzle-kit generate para criar o arquivo que cria a tabela rooms
+Usei o npx drizzle-kit migrate para popular meu banco de dados com a tabela 
+Usei o npx drizzle-kit studio para vizualizar meu banco de dados 
+usei o npm run db:seed para rodar  
+
+[Sobre o projeto]
+Estou criando uma aplicação dividida em dois projetos:
+      -Uma API em Node: As rotas que vão trabalhar com o banco de dados e com as IAS 
+      - Front-end com o React interagir com o servidor e obtendo as respostas, criando salas etc..
+
+[Dependências]
+-Desenvolvimento:
+	npm i typescript @types/node -D
+
+	npm i fastify @fastify/cors fastify-type-provider-zod zod ( cors medida de segurança para dizer 	quais urls vão consumir a api, e o zod e pra validação )
+	$ npm i @biomejs/biome -D ( formatação de código) 
+	npm i postgres biblioteca para fazer conexão com banco 
+	npm i drizzle-orm (criação de tabela )
+	npm i drizzle-kit -D (criar tabelas tbm )
+	npm i drizzle-seed -D (popula o banco de dados falsos )

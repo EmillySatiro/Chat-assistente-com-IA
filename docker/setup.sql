@@ -1,0 +1,4 @@
+CREATE EXTENSIONS IF NOT EXISTS vector;
+
+
+
